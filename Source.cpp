@@ -32,7 +32,7 @@ int main()
 
 
   std::cout << "\nAllWordIndexes ";  d.IndsWord("ef");
-  //d.FSymb('g');
+  std::cout << "\n" << d.FSymb('g');
   std::cout << "\nMostCommonSymb " << d.MostCommonSymb() << "\n";
 
   std::cout << "\nLetterWithoutRepeat " << d.WithoutRepeat() << "\n";
