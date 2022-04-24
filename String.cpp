@@ -107,7 +107,7 @@ TString TString::operator=(const TString & other)
 
 bool TString::operator==(TString & other)
 {
-  if (len = other.len)
+  if (len == other.len)
   {
     for (int i = 0; i < len; i++)
       if (str[i] == other.str[i])
